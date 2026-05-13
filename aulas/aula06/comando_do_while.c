@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int numero = 0;
+
+    do {
+        printf("Entre com o numero entre 1 e 10: ");
+        scanf("%i", &numero);
+        while(getchat() != '\n');
+
+    } while(numero < 1 || numero > 10);
+
+    return 0;
+}

@@ -1,6 +1,6 @@
 #include <stdio.h>
-
 int main() {
+    int numero = 0;
     printf("Entre com um numero: ");
     scanf("%i", &numero);
 
